@@ -1,0 +1,151 @@
+*{
+	padding: 0;
+	margin: 0;
+	background-color:#1E73AE;
+	color: white;
+	background-image:url(enturados.jpg);  
+
+
+
+}
+body{
+	display: grid;
+	grid-gap: 1em;
+	grid-template-rows: auto auto 1fr auto;
+	grid-column-gap: 100px;
+	grid-row-gap: 20px;
+	min-height: 100vh;
+}
+.text h1{
+	text-align: center;
+}
+h3{
+	text-align: center;
+}
+.inf p{
+	padding: 10px;
+	margin:20px;
+	text-align: center;
+}
+
+/*menu lateral*/
+header{
+ background-color:#1E73AE;
+ margin: 0px;
+ padding: 10px;
+}
+.navbar-nav{
+	margin:2px;
+	padding: 10px;
+
+}
+.navbar-brand img{
+	width: 67px;
+	height: 50px;
+}
+/*formulario*/
+form{
+	background:#476173;
+	width:390px;
+	padding:50px;
+	margin: auto;
+	margin-top: 10px;
+	text-align:center;
+	border-radius: 5px;
+	color: white;
+}
+.relleno div{
+	font-size: 15px;
+	width: 100px;
+	
+
+}
+.formulario label{
+	height: 20px;
+	width:300px;
+	margin-right:2px;
+	border-radius: 4px;
+		background-color:#476173;
+
+}
+input{
+	width:300px;
+	height:30px;
+	border-radius: 4px;
+	background-color: red;
+}
+ .formulario h1{
+	font-size: 30px;
+	text-align: center;
+}
+ .formulario h2{
+ 	text-align: center;
+	padding: 1px;
+	font-size:20px;
+	background-color:#476173;
+
+}
+.formulario textarea {
+  width:300px;
+  height: 80px;
+  border-radius: 5px;
+  resize: none;
+
+  overflow:auto;
+}
+.formulario button {
+   border-radius: 3px;
+   width: 120px;
+   background: red;
+   transition: width 10s;
+}
+.formulario button:hover{
+	width: 70px;
+}
+/*servicios*/
+.infoservicios{
+	text-align: center;
+	font-family:monospace;
+	font-size: 25px;
+	text-transform: none; 
+	border: 11px;
+}
+ .infoservicios{
+ 	display: grid;
+ 	grid-template-columns: 7fr 10fr auto;
+ 	margin: 1px;
+  height:100px;
+  border:2px solid #fff;
+  border-radius: 5%;
+
+ }
+  .infoservicios img{
+  margin: 10px;
+  border:2px solid #fff;
+  border-radius: 5%;
+ }
+ .infoservicios h2{
+ 	margin: 10px;
+  height:100px;
+  padding: 1px;
+  border:2px solid #fff;
+  border-radius: 5%;
+  font-size:20px;
+ }
+ .infoservicios p{
+ 	margin:10px;
+  height:100px;
+  border:2px solid #fff;
+  border-radius: 5%;
+  font-size: 15px;
+
+ } 
+footer{
+	margin-top:6px;
+    width:100%;
+    height:50px;
+    background-color:#476173;
+    color: white;
+    font: monospace;
+    font-size: 12px;
+}
